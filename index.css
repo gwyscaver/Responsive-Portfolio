@@ -9,6 +9,12 @@
     text-align: center;
 }
 
+.wrapper {
+    
+    width: 1024px;
+    margin: 40px auto;
+  }
+
 .link-container {
 
 }
@@ -49,4 +55,31 @@ nav li a {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+}
+@media screen and (max-width: 980px) {
+    body {
+      background-color: teal;
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+      background-color: teal;
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 640px) {
+    body {
+      background-color: teal;
+    }
+    .wrapper {
+        width: 100%;
+        padding: 20px;
+    }
 }
