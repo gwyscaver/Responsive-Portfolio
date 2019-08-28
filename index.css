@@ -1,0 +1,52 @@
+
+.logo {
+    font-size: 18px;
+    display: inline-block;
+    background: teal;
+    padding: 15px;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+.link-container {
+
+}
+
+.About-container{
+    background: white;
+}
+.nav-container {
+    position:relative;
+    left: 15%;
+    top: 0;
+}
+
+nav {
+    text-align: right;
+    font-size:16px;
+    margin: 0 auto:
+   
+}
+
+nav li {
+    display: inline;
+    border-right: 1px solid #bbb;
+    padding: 8px;
+    background-color: white;
+    position: relative;
+    right: 30%;
+    top: 20%;
+}
+
+nav li a {
+
+}
+
+#bio-image {
+    float: left;
+    clear: both;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
